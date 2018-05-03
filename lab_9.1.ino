@@ -9,11 +9,11 @@ void loop() {
 
   fillArrary(myArrary, 10);
 
-  for(int i = 0; i < 10; i++)
+  for(int i = 0; i < 5; i++)
   {
     Serial.println(myArrary[i]);
   }
-  delay(1000);
+  delay(3000);
 }
 
 void fillArrary(int theArrary[], int n)
@@ -23,4 +23,3 @@ void fillArrary(int theArrary[], int n)
     theArrary[i] = 10 * i;
   }
 }
-
